@@ -7,8 +7,6 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from pprint import pprint
-
 from rule.rule import init_grammar_parser
 from rule.rule import EvalTree
 
