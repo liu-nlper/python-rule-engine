@@ -101,8 +101,8 @@ variable_dict = {
     "西瓜重量": 10,
     "物品列表": {"包子", "西瓜", "香蕉"},
 }
-tree_evalautor = EvalTree()
-rule_result = tree_evalautor.transform_tree(tree, variable_dict)
+tree_evaluator = EvalTree()
+rule_result = tree_evaluator.transform_tree(tree, variable_dict)
 print(rule_result)  # 买1个包子
 ```
 
