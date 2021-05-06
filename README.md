@@ -100,7 +100,7 @@ from rule.rule import EvalTree
 variable_dict = {
     "西瓜重量": 10,
     "物品列表": {"包子", "西瓜", "香蕉"},
-  }
+}
 tree_evalautor = EvalTree()
 rule_result = tree_evalautor.transform_tree(tree, variable_dict)
 print(rule_result)  # 买1个包子
