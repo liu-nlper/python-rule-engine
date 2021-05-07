@@ -40,7 +40,6 @@ grammar = """
 
 string : ESCAPED_STRING -> string
 
-// 实际会替换为对应的变量
 variable: "@"NAME | "@"string  -> variable
 
 %import common.CNAME -> NAME
