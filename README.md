@@ -91,7 +91,7 @@ assign
 
 ### 2.3 匹配规则
 
-以上述grammar和规则为例，前缀为`@`符号的表示变量，可以从程序中实时传入，例如有如下variable：
+以上述grammar和规则为例，前缀为`@`的符号表示变量，可以从程序中实时传入，例如有如下variable：
 
 ```python
 from rule.rule import EvalTree
